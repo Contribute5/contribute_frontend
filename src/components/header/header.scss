@@ -1,0 +1,51 @@
+.header {
+  width: 100%;
+  height: calc(100vh - 70px);
+  background-image: url("../../images/header_bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+
+  .wrapper {
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+
+    .text {
+      text-align: center;
+      width: 600px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 10px;
+
+      h1 {
+        font-size: 40px;
+        font-weight: 500;
+      }
+
+      p {
+        font-size: 24px;
+      }
+    }
+
+    button {
+      padding: 10px;
+      border-radius: 15px;
+      border: none;
+      background-color: #eb9999;
+      width: 200px;
+      cursor: pointer;
+      &:hover {
+        background-color: white;
+      }
+    }
+  }
+}

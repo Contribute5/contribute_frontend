@@ -1,0 +1,54 @@
+.navbar {
+  width: 100%;
+  height: 70px;
+  position: sticky;
+  top: 0;
+  z-index: 999999;
+  background-color: #f2efef;
+  box-shadow: -2px 9px 5px -1px rgba(0, 0, 0, 0.55);
+  -webkit-box-shadow: -2px 9px 5px -1px rgba(0, 0, 0, 0.55);
+  -moz-box-shadow: -2px 9px 5px -1px rgba(0, 0, 0, 0.55);
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    // gap: 300px;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0 20px;
+
+    .navItem {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      cursor: pointer;
+      margin-left: 120px;
+
+      span {
+        transition: color ease-in-out 0.5s;
+        font-size: 18px;
+
+        &:hover {
+          border-bottom: 1px solid #eb9999;
+        }
+      }
+    }
+
+    .auth {
+      display: flex;
+      gap: 20px;
+
+      button {
+        padding: 10px;
+        border-radius: 32px;
+        background-color: #eb9999;
+        border: none;
+        width: 100px;
+      }
+    }
+  }
+}
