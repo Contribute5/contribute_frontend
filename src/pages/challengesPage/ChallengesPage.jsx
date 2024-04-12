@@ -1,27 +1,48 @@
-import { Link } from "react-router-dom";
-import "./footer.scss";
+import Navbar from "../../components/navbar/Navbar";
+import SearchFilter from "../../components/searchFilter/SearchFilter";
+import Challenges from "../../components/challenges/Challenges";
+import "./challengesPage.scss";
+import Projects from "../../data.json";
+import ReactPaginate from "react-paginate";
+import { useState } from "react";
+import Faq from "../../components/faq/Faq";
 import LOGO from "../../images/CONTRIBUTE.png";
 import fb from "../../images/fb.png";
 import social from "../../images/social.png";
 import github from "../../images/github.png";
 import insta from "../../images/insta.png";
 
-const Footer = () => {
+const ChallengesPage = () => {
+  const [itemOffset, setItemOffset] = useState(0);
+  const itemsPerPage = 6;
+  const endOffset = itemOffset + itemsPerPage;
+  console.log(`Loading items from ${itemOffset} to ${endOffset}`);
+  const currentItems = Projects.slice(itemOffset, endOffset);
+  const pageCount = Math.ceil(Projects.length / itemsPerPage);
+  const handlePageClick = (event) => {
+    const newOffset = event.selected * itemsPerPage;
+    setItemOffset(newOffset);
+  };
   return (
-    <div className="footer">
-      <div className="cta">
-        <div className="container">
-          <div className="left">
-            <span>Join Contribute today</span>
-          </div>
-          <div className="right">
-            <span>Let&apos;s do it! —</span>
-            <Link className="link" to="/register">
-              <button>Get Started</button>
-            </Link>
-          </div>
-        </div>
-      </div>
+    <div className="challenges_page">
+      <Navbar />
+      <SearchFilter />
+      <Challenges currentItems={currentItems} />
+      <ReactPaginate
+        breakLabel="..."
+        nextLabel="next >"
+        onPageChange={handlePageClick}
+        pageRangeDisplayed={5}
+        pageCount={pageCount}
+        previousLabel="< previous"
+        renderOnZeroPageCount={null}
+        containerClassName="pagination"
+        pageLinkClassName="page-num"
+        previousLinkClassName="prev"
+        nextLinkClassName="next"
+        activeLinkClassName="active"
+      />
+      <Faq />
       <div className="main">
         <div className="top">
           <div className="logo">
@@ -74,4 +95,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default ChallengesPage;

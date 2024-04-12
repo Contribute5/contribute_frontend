@@ -1,0 +1,465 @@
+[
+  {
+    "id": 1,
+    "imgUrl": "https://images.pexels.com/photos/574070/pexels-photo-574070.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "title": "E-commerce Platform: Building an Online Marketplace",
+    "desc": "Join our team in developing a comprehensive e-commerce platform from scratch. This project involves designing and implementing user-friendly interfaces, integrating secure payment gateways, and optimizing performance for high traffic.",
+    "users": [
+      {
+        "id": 1,
+        "name": "Alice",
+        "profilePic": "https://example.com/profiles/alice.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Bob",
+        "profilePic": "https://example.com/profiles/bob.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Charlie",
+        "profilePic": "https://example.com/profiles/charlie.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "imgUrl": "https://images.pexels.com/photos/1188751/pexels-photo-1188751.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "title": "Healthcare Management System: Streamlining Patient Care",
+    "desc": "Be a part of our project team to develop a healthcare management system aimed at improving patient care efficiency. Responsibilities include database design, implementing scheduling algorithms, and ensuring compliance with healthcare regulations.",
+    "users": [
+      {
+        "id": 4,
+        "name": "David",
+        "profilePic": "https://example.com/profiles/david.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Emily",
+        "profilePic": "https://example.com/profiles/emily.jpg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "imgUrl": "https://images.pexels.com/photos/106344/pexels-photo-106344.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "title": "Data Analytics Dashboard: Visualizing Insights",
+    "desc": "Join us in creating a data analytics dashboard for visualizing key business insights. This project involves developing interactive charts, implementing data pipelines for real-time updates, and integrating with various data sources.",
+    "users": [
+      {
+        "id": 6,
+        "name": "Fiona",
+        "profilePic": "https://example.com/profiles/fiona.jpg"
+      },
+      {
+        "id": 7,
+        "name": "George",
+        "profilePic": "https://example.com/profiles/george.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Hannah",
+        "profilePic": "https://example.com/profiles/hannah.jpg"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "imgUrl": "https://images.pexels.com/photos/574070/pexels-photo-574070.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "title": "Social Media Analytics Tool: Tracking User Engagement",
+    "desc": "Become a part of our team working on a social media analytics tool for tracking user engagement metrics. Tasks include data aggregation from multiple platforms, sentiment analysis, and generating comprehensive reports.",
+    "users": [
+      {
+        "id": 9,
+        "name": "Ian",
+        "profilePic": "https://example.com/profiles/ian.jpg"
+      },
+      {
+        "id": 10,
+        "name": "Julia",
+        "profilePic": "https://example.com/profiles/julia.jpg"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "imgUrl": "https://images.pexels.com/photos/106344/pexels-photo-106344.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "title": "Project Management Tool: Enhancing Collaboration",
+    "desc": "Work with us on developing a project management tool to streamline collaboration and task management. Responsibilities include implementing Kanban boards, integrating with calendar systems, and facilitating communication.",
+    "users": [
+      {
+        "id": 11,
+        "name": "Kevin",
+        "profilePic": "https://example.com/profiles/kevin.jpg"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "imgUrl": "https://images.pexels.com/photos/574070/pexels-photo-574070.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "title": "E-learning Platform: Revolutionizing Online Education",
+    "desc": "Join our team in revolutionizing online education by developing an interactive e-learning platform. This project involves designing adaptive learning algorithms, creating engaging multimedia content, and implementing gamification elements.",
+    "users": [
+      {
+        "id": 12,
+        "name": "Linda",
+        "profilePic": "https://example.com/profiles/linda.jpg"
+      },
+      {
+        "id": 13,
+        "name": "Michael",
+        "profilePic": "https://example.com/profiles/michael.jpg"
+      },
+      {
+        "id": 14,
+        "name": "Natalie",
+        "profilePic": "https://example.com/profiles/natalie.jpg"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "imgUrl": "https://images.pexels.com/photos/1188751/pexels-photo-1188751.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "title": "Mobile App Development: Creating Innovative Solutions",
+    "desc": "Be part of our mobile app development project aimed at creating innovative solutions for everyday challenges. Responsibilities include UI/UX design, backend development, and ensuring cross-platform compatibility.",
+    "users": [
+      {
+        "id": 15,
+        "name": "Oliver",
+        "profilePic": "https://example.com/profiles/oliver.jpg"
+      },
+      {
+        "id": 16,
+        "name": "Penelope",
+        "profilePic": "https://example.com/profiles/penelope.jpg"
+      },
+      {
+        "id": 17,
+        "name": "Jacob",
+        "profilePic": "https://example.com/profiles/penelope.jpg"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "imgUrl": "https://images.pexels.com/photos/38271/ipad-map-tablet-internet-38271.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "title": "Mobile App Development: Creating Innovative Solutions",
+    "desc": "Be part of our mobile app development project aimed at creating innovative solutions for everyday challenges. Responsibilities include UI/UX design, backend development, and ensuring cross-platform compatibility.",
+    "users": [
+      {
+        "id": 15,
+        "name": "Oliver",
+        "profilePic": "https://example.com/profiles/oliver.jpg"
+      },
+      {
+        "id": 16,
+        "name": "Penelope",
+        "profilePic": "https://example.com/profiles/penelope.jpg"
+      },
+      {
+        "id": 17,
+        "name": "Jacob",
+        "profilePic": "https://example.com/profiles/penelope.jpg"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "imgUrl": "https://images.pexels.com/photos/38271/ipad-map-tablet-internet-38271.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "title": "Mobile App Development: Creating Innovative Solutions",
+    "desc": "Be part of our mobile app development project aimed at creating innovative solutions for everyday challenges. Responsibilities include UI/UX design, backend development, and ensuring cross-platform compatibility.",
+    "users": [
+      {
+        "id": 15,
+        "name": "Oliver",
+        "profilePic": "https://example.com/profiles/oliver.jpg"
+      },
+      {
+        "id": 16,
+        "name": "Penelope",
+        "profilePic": "https://example.com/profiles/penelope.jpg"
+      },
+      {
+        "id": 17,
+        "name": "Jacob",
+        "profilePic": "https://example.com/profiles/penelope.jpg"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "imgUrl": "https://images.pexels.com/photos/106344/pexels-photo-106344.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "title": "Mobile App Development: Creating Innovative Solutions",
+    "desc": "Be part of our mobile app development project aimed at creating innovative solutions for everyday challenges. Responsibilities include UI/UX design, backend development, and ensuring cross-platform compatibility.",
+    "users": [
+      {
+        "id": 15,
+        "name": "Oliver",
+        "profilePic": "https://example.com/profiles/oliver.jpg"
+      },
+      {
+        "id": 16,
+        "name": "Penelope",
+        "profilePic": "https://example.com/profiles/penelope.jpg"
+      },
+      {
+        "id": 17,
+        "name": "Jacob",
+        "profilePic": "https://example.com/profiles/penelope.jpg"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "imgUrl": "https://images.pexels.com/photos/693859/pexels-photo-693859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "title": "Mobile App Development: Creating Innovative Solutions",
+    "desc": "Be part of our mobile app development project aimed at creating innovative solutions for everyday challenges. Responsibilities include UI/UX design, backend development, and ensuring cross-platform compatibility.",
+    "users": [
+      {
+        "id": 15,
+        "name": "Oliver",
+        "profilePic": "https://example.com/profiles/oliver.jpg"
+      },
+      {
+        "id": 16,
+        "name": "Penelope",
+        "profilePic": "https://example.com/profiles/penelope.jpg"
+      },
+      {
+        "id": 17,
+        "name": "Jacob",
+        "profilePic": "https://example.com/profiles/penelope.jpg"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "imgUrl": "https://images.pexels.com/photos/1188751/pexels-photo-1188751.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "title": "Mobile App Development: Creating Innovative Solutions",
+    "desc": "Be part of our mobile app development project aimed at creating innovative solutions for everyday challenges. Responsibilities include UI/UX design, backend development, and ensuring cross-platform compatibility.",
+    "users": [
+      {
+        "id": 15,
+        "name": "Oliver",
+        "profilePic": "https://example.com/profiles/oliver.jpg"
+      },
+      {
+        "id": 16,
+        "name": "Penelope",
+        "profilePic": "https://example.com/profiles/penelope.jpg"
+      },
+      {
+        "id": 17,
+        "name": "Jacob",
+        "profilePic": "https://example.com/profiles/penelope.jpg"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "imgUrl": "https://images.pexels.com/photos/693859/pexels-photo-693859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "title": "Mobile App Development: Creating Innovative Solutions",
+    "desc": "Be part of our mobile app development project aimed at creating innovative solutions for everyday challenges. Responsibilities include UI/UX design, backend development, and ensuring cross-platform compatibility.",
+    "users": [
+      {
+        "id": 15,
+        "name": "Oliver",
+        "profilePic": "https://example.com/profiles/oliver.jpg"
+      },
+      {
+        "id": 16,
+        "name": "Penelope",
+        "profilePic": "https://example.com/profiles/penelope.jpg"
+      },
+      {
+        "id": 17,
+        "name": "Jacob",
+        "profilePic": "https://example.com/profiles/penelope.jpg"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "imgUrl": "https://images.pexels.com/photos/38271/ipad-map-tablet-internet-38271.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "title": "Mobile App Development: Creating Innovative Solutions",
+    "desc": "Be part of our mobile app development project aimed at creating innovative solutions for everyday challenges. Responsibilities include UI/UX design, backend development, and ensuring cross-platform compatibility.",
+    "users": [
+      {
+        "id": 15,
+        "name": "Oliver",
+        "profilePic": "https://example.com/profiles/oliver.jpg"
+      },
+      {
+        "id": 16,
+        "name": "Penelope",
+        "profilePic": "https://example.com/profiles/penelope.jpg"
+      },
+      {
+        "id": 17,
+        "name": "Jacob",
+        "profilePic": "https://example.com/profiles/penelope.jpg"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "imgUrl": "https://images.pexels.com/photos/1188751/pexels-photo-1188751.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "title": "Mobile App Development: Creating Innovative Solutions",
+    "desc": "Be part of our mobile app development project aimed at creating innovative solutions for everyday challenges. Responsibilities include UI/UX design, backend development, and ensuring cross-platform compatibility.",
+    "users": [
+      {
+        "id": 15,
+        "name": "Oliver",
+        "profilePic": "https://example.com/profiles/oliver.jpg"
+      },
+      {
+        "id": 16,
+        "name": "Penelope",
+        "profilePic": "https://example.com/profiles/penelope.jpg"
+      },
+      {
+        "id": 17,
+        "name": "Jacob",
+        "profilePic": "https://example.com/profiles/penelope.jpg"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "imgUrl": "https://images.pexels.com/photos/38271/ipad-map-tablet-internet-38271.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "title": "Mobile App Development: Creating Innovative Solutions",
+    "desc": "Be part of our mobile app development project aimed at creating innovative solutions for everyday challenges. Responsibilities include UI/UX design, backend development, and ensuring cross-platform compatibility.",
+    "users": [
+      {
+        "id": 15,
+        "name": "Oliver",
+        "profilePic": "https://example.com/profiles/oliver.jpg"
+      },
+      {
+        "id": 16,
+        "name": "Penelope",
+        "profilePic": "https://example.com/profiles/penelope.jpg"
+      },
+      {
+        "id": 17,
+        "name": "Jacob",
+        "profilePic": "https://example.com/profiles/penelope.jpg"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "imgUrl": "https://images.pexels.com/photos/693859/pexels-photo-693859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "title": "Mobile App Development: Creating Innovative Solutions",
+    "desc": "Be part of our mobile app development project aimed at creating innovative solutions for everyday challenges. Responsibilities include UI/UX design, backend development, and ensuring cross-platform compatibility.",
+    "users": [
+      {
+        "id": 15,
+        "name": "Oliver",
+        "profilePic": "https://example.com/profiles/oliver.jpg"
+      },
+      {
+        "id": 16,
+        "name": "Penelope",
+        "profilePic": "https://example.com/profiles/penelope.jpg"
+      },
+      {
+        "id": 17,
+        "name": "Jacob",
+        "profilePic": "https://example.com/profiles/penelope.jpg"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "imgUrl": "https://images.pexels.com/photos/38271/ipad-map-tablet-internet-38271.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "title": "Mobile App Development: Creating Innovative Solutions",
+    "desc": "Be part of our mobile app development project aimed at creating innovative solutions for everyday challenges. Responsibilities include UI/UX design, backend development, and ensuring cross-platform compatibility.",
+    "users": [
+      {
+        "id": 15,
+        "name": "Oliver",
+        "profilePic": "https://example.com/profiles/oliver.jpg"
+      },
+      {
+        "id": 16,
+        "name": "Penelope",
+        "profilePic": "https://example.com/profiles/penelope.jpg"
+      },
+      {
+        "id": 17,
+        "name": "Jacob",
+        "profilePic": "https://example.com/profiles/penelope.jpg"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "imgUrl": "https://images.pexels.com/photos/693859/pexels-photo-693859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "title": "Mobile App Development: Creating Innovative Solutions",
+    "desc": "Be part of our mobile app development project aimed at creating innovative solutions for everyday challenges. Responsibilities include UI/UX design, backend development, and ensuring cross-platform compatibility.",
+    "users": [
+      {
+        "id": 15,
+        "name": "Oliver",
+        "profilePic": "https://example.com/profiles/oliver.jpg"
+      },
+      {
+        "id": 16,
+        "name": "Penelope",
+        "profilePic": "https://example.com/profiles/penelope.jpg"
+      },
+      {
+        "id": 17,
+        "name": "Jacob",
+        "profilePic": "https://example.com/profiles/penelope.jpg"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "imgUrl": "https://images.pexels.com/photos/693859/pexels-photo-693859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "title": "Mobile App Development: Creating Innovative Solutions",
+    "desc": "Be part of our mobile app development project aimed at creating innovative solutions for everyday challenges. Responsibilities include UI/UX design, backend development, and ensuring cross-platform compatibility.",
+    "users": [
+      {
+        "id": 15,
+        "name": "Oliver",
+        "profilePic": "https://example.com/profiles/oliver.jpg"
+      },
+      {
+        "id": 16,
+        "name": "Penelope",
+        "profilePic": "https://example.com/profiles/penelope.jpg"
+      },
+      {
+        "id": 17,
+        "name": "Jacob",
+        "profilePic": "https://example.com/profiles/penelope.jpg"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "imgUrl": "https://images.pexels.com/photos/693859/pexels-photo-693859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "title": "Mobile App Development: Creating Innovative Solutions",
+    "desc": "Be part of our mobile app development project aimed at creating innovative solutions for everyday challenges. Responsibilities include UI/UX design, backend development, and ensuring cross-platform compatibility.",
+    "users": [
+      {
+        "id": 15,
+        "name": "Oliver",
+        "profilePic": "https://example.com/profiles/oliver.jpg"
+      },
+      {
+        "id": 16,
+        "name": "Penelope",
+        "profilePic": "https://example.com/profiles/penelope.jpg"
+      },
+      {
+        "id": 17,
+        "name": "Jacob",
+        "profilePic": "https://example.com/profiles/penelope.jpg"
+      }
+    ]
+  }
+]

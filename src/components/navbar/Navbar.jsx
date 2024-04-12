@@ -1,18 +1,52 @@
+import { Link } from "react-router-dom";
 import "./navbar.scss";
+import LOGO from "../../images/CONTRIBUTE.png";
+import TestimonialImg from "../../images/testimonial.png";
 
 const Navbar = () => {
+  const user = true;
   return (
     <div className="navbar">
       <div className="container">
-        <div className="logo">logo</div>
-        <div className="navItem">
-          <span>Home</span>
-          <span>Challenges</span>
-          <span>About</span>
+        <div className="left">
+          <div className="logo">
+            <Link className="link" to="/">
+              <img src={LOGO} alt="" />
+            </Link>
+          </div>
+          <div className="navItem">
+            {!user && (
+              <Link to="/" className="link">
+                <span>Home</span>
+              </Link>
+            )}
+
+            <Link to="/challenges" className="link">
+              <span>Challenges</span>
+            </Link>
+            {user && (
+              <Link to="/my_challenges" className="link">
+                <span>My challenges</span>
+              </Link>
+            )}
+            <Link to="/about" className="link">
+              <span>About</span>
+            </Link>
+          </div>
         </div>
         <div className="auth">
-          <button>LOGIN</button>
-          <button>REGISTER</button>
+          {user ? (
+            <img src={TestimonialImg} />
+          ) : (
+            <>
+              <Link to="/login" className="link">
+                <button className="btn_login">LOGIN</button>
+              </Link>
+              <Link to="/register" className="link">
+                <button className="btn_join">Join Contribute</button>
+              </Link>
+            </>
+          )}
         </div>
       </div>
     </div>

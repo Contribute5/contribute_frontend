@@ -1,44 +1,31 @@
-.footer {
+.challenges_page {
   width: 100%;
-  position: relative;
-  .cta {
-    width: 100%;
+
+  .pagination {
     display: flex;
+    list-style: none;
     justify-content: center;
-    .container {
-      width: 80%;
-      height: 80px;
-      background: linear-gradient(90deg, #277bcd 0%, #e1f0ff 100%);
-      display: flex;
-      align-items: center;
-      padding: 0 20px;
-      justify-content: space-between;
-      border-radius: 5px;
-      color: #ffff;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.2rem;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .next,
+  .prev {
+    cursor: pointer;
+  }
 
-      .left {
-        color: #ffff;
-        font-size: 18px;
-      }
-      .right {
-        display: flex;
-        gap: 20px;
-        align-items: center;
-
-        button {
-          padding: 10px;
-          border-radius: 32px;
-          background-color: #277bcd;
-          border: none;
-          color: #ffff;
-          width: 150px;
-          cursor: pointer;
-        }
-      }
-    }
+  .page-num {
+    color: #277bcd;
+    cursor: pointer;
+    padding: 8px 15px;
+  }
+  .active {
+    background-color: #277bcd;
+    color: #ffffff;
   }
   .main {
-    position: absolute;
     height: 350px;
     width: 100%;
     top: 30px;
@@ -46,15 +33,18 @@
     background-color: #474747;
     display: flex;
     flex-direction: column;
+    margin-top: 100px;
 
     .top {
       flex: 5;
       padding: 70px 20px 20px 20px;
       display: flex;
       justify-content: space-around;
-      align-items: center;
 
       .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         img {
           width: 100px;
         }
