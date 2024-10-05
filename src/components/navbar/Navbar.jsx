@@ -4,7 +4,7 @@ import LOGO from "../../images/CONTRIBUTE.png";
 import TestimonialImg from "../../images/testimonial.png";
 
 const Navbar = () => {
-  const user = true;
+  const user = false;
   return (
     <div className="navbar">
       <div className="container">
