@@ -18,7 +18,7 @@
         font-size: 17px;
       }
 
-      button {
+      .button {
         width: 150px;
         padding: 10px;
         background-color: #277bcd;
@@ -26,6 +26,7 @@
         border: none;
         border-radius: 5px;
         cursor: pointer;
+        text-align: center;
       }
 
       .bottom {

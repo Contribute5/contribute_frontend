@@ -7,6 +7,7 @@ import feat1 from "../../images/feat1.png";
 import feat2 from "../../images/feat2.png";
 import feat3 from "../../images/feat3.png";
 import feat4 from "../../images/feat4.png";
+import CodeIcon from "@mui/icons-material/Code";
 
 const Featured = () => {
   return (
@@ -23,7 +24,13 @@ const Featured = () => {
         <div className="top">
           <div className="wrapper">
             <div className="left">
-              <img src={feat1} alt="" />
+              <div className="box-container">
+                <div className="top-box">
+                  <CodeIcon />
+                  <span>Browse Challenges</span>
+                </div>
+                <div className="bottom-box"></div>
+              </div>
 
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -40,7 +47,13 @@ const Featured = () => {
         <div className="center">
           <div className="wrapper">
             <div className="left">
-              <img src={feat2} className="icon" alt="" />
+              <div className="box-container">
+                <div className="top-box">
+                  <CodeIcon />
+                  <span>Solve and Get Paid</span>
+                </div>
+                <div className="bottom-box"></div>
+              </div>
               <h3>Solve and Get Paid</h3>
               <p>
                 Ut enim ad minima veniam, quis nostrum exercitationem ullam
@@ -51,7 +64,13 @@ const Featured = () => {
               <img src={Img3} alt="" />
             </div>
             <div className="right">
-              <img src={feat3} className="icon" alt="" />
+              <div className="box-container">
+                <div className="top-box">
+                  <CodeIcon />
+                  <span>Track Your Earnings</span>
+                </div>
+                <div className="bottom-box"></div>
+              </div>
               <h3>Track Your Earnings</h3>
               <p>
                 Ut enim ad minima veniam, quis nostrum exercitationem ullam
@@ -69,7 +88,13 @@ const Featured = () => {
               <img src={Img5} alt="" />
             </div>
             <div className="right">
-              <img src={feat4} alt="" />
+              <div className="box-container">
+                <div className="top-box">
+                  <CodeIcon />
+                  <span>Track Your Earnings</span>
+                </div>
+                <div className="bottom-box"></div>
+              </div>
               <h3>Browse Challenges</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

@@ -4,6 +4,7 @@ import Star from "../../images/Star 3.png";
 import comp1 from "../../images/Component 1.png";
 import comp2 from "../../images/Component 2.png";
 import comp3 from "../../images/Component 3.png";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -16,7 +17,9 @@ const Header = () => {
             challenges This is a platform that allow developers to contribute to
             programming problems all around and get paid for it.
           </p>
-          <button>GET STARTED</button>
+          <Link to="/login" className="button link">
+            GET STARTED
+          </Link>
 
           <div className="bottom">
             <div className="item">
