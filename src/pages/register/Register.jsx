@@ -7,10 +7,20 @@ import { Icon } from "react-icons-kit";
 import { eyeBlocked } from "react-icons-kit/icomoon/eyeBlocked";
 import { eye } from "react-icons-kit/icomoon/eye";
 import { useState } from "react";
+import axios from 'axios';
 
+
+//from backend
 const Register = () => {
   const [type, setType] = useState("password");
   const [icon, setIcon] = useState(eyeBlocked);
+  const [fullName, setFullName] = useState("")
+  const [email, setEmail] = useState("")
+  const [password, setPassword] = useState("")
+  const [confirmPassword, setConfirmPassword] = useState("")
+  const [error, setError] = useState("")
+  const navigate = UseNavigate();
+
 
   const handlePasswordToggle = () => {
     if (type === "password") {
@@ -21,6 +31,26 @@ const Register = () => {
       setIcon(eyeBlocked);
     }
   };
+
+  //from backend
+  const handleSubmit = async (e) => {
+    e.preventDefault(); // Prevent default form submission
+    try {
+      const response = await axios.post('http://127.0.0.1:8000/api/accounts/register/', {
+        full_name: fullName,
+        email,
+        password
+      });
+      console.log(response.data); // Handle successful registration (e.g., show a message or redirect)
+      // Optionally: Redirect to login or home page after successful registration
+      navigate('/login'); // Redirect to the login page
+    } catch (error) {
+      setError(error.response.data.detail || "Registration failed. Please try again."); // Set error message
+      console.error("There was an error!", error.response.data);
+    }
+  };
+
+
   return (
     <div className="register">
       <div className="auth_nav">

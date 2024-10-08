@@ -12,6 +12,7 @@ import social from "../../images/social.png";
 import github from "../../images/github.png";
 import insta from "../../images/insta.png";
 
+
 const ChallengesPage = () => {
   const [itemOffset, setItemOffset] = useState(0);
   const itemsPerPage = 6;
