@@ -58,3 +58,32 @@
     }
   }
 }
+
+@media (max-width: 480px) {
+  .testimonial {
+    padding-bottom: 50px;
+    height: 100%;
+    overflow: hidden;
+    .container {
+      h2 {
+        text-align: center;
+      }
+      p {
+        text-align: center;
+      }
+      .items {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        .card {
+          .item {
+            width: 100%;
+            q {
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}

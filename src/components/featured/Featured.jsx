@@ -3,10 +3,6 @@ import Img1 from "../../images/Frame 32.jpg";
 import Img3 from "../../images/Frame 32-1.jpg";
 import Img4 from "../../images/Frame 31.jpg";
 import Img5 from "../../images/Frame 32-2.jpg";
-import feat1 from "../../images/feat1.png";
-import feat2 from "../../images/feat2.png";
-import feat3 from "../../images/feat3.png";
-import feat4 from "../../images/feat4.png";
 import CodeIcon from "@mui/icons-material/Code";
 
 const Featured = () => {
@@ -31,6 +27,7 @@ const Featured = () => {
                 </div>
                 <div className="bottom-box"></div>
               </div>
+              <h3>Browse Challenges</h3>
 
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

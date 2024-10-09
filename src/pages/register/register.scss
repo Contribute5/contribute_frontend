@@ -155,3 +155,22 @@
     }
   }
 }
+
+@media (max-width: 480px) {
+  .register {
+    overflow: hidden;
+    .auth_nav {
+      .logo {
+        img {
+          width: 100px;
+        }
+      }
+
+      .buttons {
+        .btn_login {
+          padding: 8px;
+        }
+      }
+    }
+  }
+}

@@ -75,6 +75,11 @@
         position: absolute;
         top: 180px;
         left: 90px;
+        background-color: black;
+        color: #ffff;
+        border: 1px solid #ffff;
+        border-radius: 10px;
+        padding: 15px;
         cursor: pointer;
         transition: all ease-in-out 0.3s;
         &:hover {
@@ -87,6 +92,11 @@
         left: 70px;
         cursor: pointer;
         transition: all ease-in-out 0.5s;
+        background-color: black;
+        color: #ffff;
+        border: 1px solid #ffff;
+        border-radius: 10px;
+        padding: 15px;
         &:hover {
           transform: scale(1.1);
         }
@@ -97,8 +107,74 @@
         left: 50px;
         cursor: pointer;
         transition: all ease-in-out 0.5s;
+        background-color: black;
+        color: #ffff;
+        border: 1px solid #ffff;
+        border-radius: 10px;
+        padding: 15px;
         &:hover {
           transform: scale(1.1);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+      .left {
+        gap: 20px;
+        width: 100%;
+        h1 {
+          font-size: 15px;
+          width: 100%;
+        }
+        p {
+          font-size: 12px;
+          width: 300px;
+        }
+        .button {
+          font-size: 10px;
+          width: 100px;
+        }
+        .bottom {
+          .item {
+            font-size: 12px;
+          }
+        }
+      }
+
+      .right {
+        width: 100%;
+        padding: 5px;
+        .hero {
+          width: 400px;
+        }
+
+        .comp1,
+        .comp2,
+        .comp3 {
+          padding: 5px;
+          font-size: 10px;
+          height: 40px;
+          text-align: center;
+        }
+        .comp1 {
+          top: 100px;
+        }
+        .comp2 {
+          top: 170px;
+        }
+        .comp3 {
+          top: 240px;
+        }
+        .star1,
+        .star2,
+        .star3 {
+          display: none;
         }
       }
     }

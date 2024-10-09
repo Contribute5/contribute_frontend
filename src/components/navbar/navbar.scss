@@ -74,3 +74,18 @@
     }
   }
 }
+
+@media (max-width: 480px) {
+  .navbar {
+    overflow: hidden;
+    .container {
+      .left {
+        .logo {
+          img {
+            width: 100px;
+          }
+        }
+      }
+    }
+  }
+}

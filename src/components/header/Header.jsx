@@ -41,9 +41,9 @@ const Header = () => {
           <img src={Star} alt="" className="star1" />
           <img src={Star} alt="" className="star2" />
           <img src={Star} alt="" className="star3" />
-          <img src={comp1} alt="" className="comp1" />
-          <img src={comp2} alt="svjsjk" className="comp2" />
-          <img src={comp3} alt="ghsgjj" className="comp3" />
+          <div className="comp1">Develop solutions to challenges</div>
+          <div className="comp2">Get paid after submission</div>
+          <div className="comp3">Track your earnings</div>
         </div>
       </div>
     </div>

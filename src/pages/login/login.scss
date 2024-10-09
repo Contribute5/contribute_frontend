@@ -170,3 +170,22 @@
     }
   }
 }
+
+@media (max-width: 480px) {
+  .login {
+    overflow: hidden;
+    .auth_nav {
+      .logo {
+        img {
+          width: 100px;
+        }
+      }
+
+      .buttons {
+        .btn_join {
+          padding: 8px;
+        }
+      }
+    }
+  }
+}
