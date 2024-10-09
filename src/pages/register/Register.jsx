@@ -8,18 +8,19 @@ import { eyeBlocked } from "react-icons-kit/icomoon/eyeBlocked";
 import { eye } from "react-icons-kit/icomoon/eye";
 import { useState } from "react";
 import axios from 'axios';
+import { useNavigate } from "react-router-dom";
 
 
 //from backend
 const Register = () => {
   const [type, setType] = useState("password");
   const [icon, setIcon] = useState(eyeBlocked);
-  const [fullName, setFullName] = useState("")
-  const [email, setEmail] = useState("")
+  const [fullName, setFullName] = useState("");
+  const [email, setEmail] = useState("");
   const [password, setPassword] = useState("")
-  const [confirmPassword, setConfirmPassword] = useState("")
-  const [error, setError] = useState("")
-  const navigate = UseNavigate();
+  const [confirmPassword, setConfirmPassword] = useState("");
+  const [error, setError] = useState("");
+  const navigate = useNavigate();
 
 
   const handlePasswordToggle = () => {
