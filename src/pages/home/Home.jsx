@@ -13,7 +13,11 @@ const Home = ({ menuOpen, setMenuOpen }) => {
   };
   return (
     <div className="home">
-      <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+      <Navbar
+        menuOpen={menuOpen}
+        setMenuOpen={setMenuOpen}
+        showHarmburger={true}
+      />
       <MobileMenu menuOpen={menuOpen} closeMenu={closeMenu} />
       <Header />
       <Featured />

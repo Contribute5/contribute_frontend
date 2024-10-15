@@ -27,7 +27,11 @@ const ChallengesPage = ({ menuOpen, setMenuOpen }) => {
 
   return (
     <div className="challenges_page">
-      <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+      <Navbar
+        menuOpen={menuOpen}
+        setMenuOpen={setMenuOpen}
+        showHarmBurger={false}
+      />
       <SearchFilter />
       <Challenges currentItems={currentItems} />
       <ReactPaginate
