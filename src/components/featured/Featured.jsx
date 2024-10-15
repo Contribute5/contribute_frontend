@@ -37,7 +37,10 @@ const Featured = () => {
               </p>
             </div>
             <div className="right">
-              <img src={Img1} alt="" />
+              <img
+                src="https://plus.unsplash.com/premium_photo-1661963874418-df1110ee39c1?q=80&w=1986&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt=""
+              />
             </div>
           </div>
         </div>
@@ -58,7 +61,10 @@ const Featured = () => {
                 veniam, quis nostrum exercitationem ullam corporis suscipit
                 laboriosam, nisi ut al
               </p>
-              <img src={Img3} alt="" />
+              <img
+                src="https://plus.unsplash.com/premium_photo-1690521447032-8c608d25a0e6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt=""
+              />
             </div>
             <div className="right">
               <div className="box-container">
@@ -75,20 +81,26 @@ const Featured = () => {
                 veniam, quis nostrum exercitationem ullam corporis suscipit
                 laboriosam, nisi ut al
               </p>
-              <img src={Img4} alt="" />
+              <img
+                src="https://images.unsplash.com/photo-1506645292803-579c17d4ba6a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt=""
+              />
             </div>
           </div>
         </div>
         <div className="bottom">
           <div className="wrapper">
             <div className="left">
-              <img src={Img5} alt="" />
+              <img
+                src="https://plus.unsplash.com/premium_photo-1677093906033-dc2beb53ace3?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt=""
+              />
             </div>
             <div className="right">
               <div className="box-container">
                 <div className="top-box">
                   <CodeIcon />
-                  <span>Track Your Earnings</span>
+                  <span>Submit for Verification</span>
                 </div>
                 <div className="bottom-box"></div>
               </div>
