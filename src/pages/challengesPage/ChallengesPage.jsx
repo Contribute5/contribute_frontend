@@ -13,12 +13,7 @@ import social from "../../images/social.png";
 import github from "../../images/github.png";
 import insta from "../../images/insta.png";
 
-<<<<<<< HEAD
 const ChallengesPage = ({ menuOpen, setMenuOpen }) => {
-=======
-
-const ChallengesPage = () => {
->>>>>>> 0a8a30942029b6a071f4f615f9a8a79efe394752
   const [itemOffset, setItemOffset] = useState(0);
   const itemsPerPage = 6;
   const endOffset = itemOffset + itemsPerPage;
@@ -29,6 +24,7 @@ const ChallengesPage = () => {
     const newOffset = event.selected * itemsPerPage;
     setItemOffset(newOffset);
   };
+
   return (
     <div className="challenges_page">
       <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
@@ -76,8 +72,9 @@ const ChallengesPage = () => {
             <h5>Subscribe</h5>
             <p>
               Subscribe to stay tuned for new <br /> web design and latest
-              updates. Let's do it!{" "}
+              updates. Let&#39;s do it!
             </p>
+
             <div className="input">
               <input type="text" placeholder="Enter your email address" />
               <button>Subscribe</button>
