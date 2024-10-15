@@ -7,10 +7,20 @@ import { Icon } from "react-icons-kit";
 import { eyeBlocked } from "react-icons-kit/icomoon/eyeBlocked";
 import { eye } from "react-icons-kit/icomoon/eye";
 import { useState } from "react";
+import axios from 'axios';
+
+
+
+
 
 const Login = () => {
   const [type, setType] = useState("password");
   const [icon, setIcon] = useState(eyeBlocked);
+  //from backend
+  const [email, setEmail] = useState('');  //State for email
+  const [password, setPassword] = useState(''); // State for password
+  const [error, setError] = useState(''); //State for error messages
+  
 
   const handlePasswordToggle = () => {
     if (type === "password") {
@@ -21,6 +31,22 @@ const Login = () => {
       setIcon(eyeBlocked);
     }
   };
+
+  //from backend
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await axios.post('http://127.0..1:8000/api/accounts', {
+         email, 
+         password 
+      });
+      console.log(response.data); //Store tokens or navigate after successful login
+    } catch (error) {
+      setError(error.response.data.detail || "Login failed. Please try again");
+      console.error("There was an error", error.response.data)
+    }
+  };
+
   return (
     <div className="login">
       <div className="auth_nav">
