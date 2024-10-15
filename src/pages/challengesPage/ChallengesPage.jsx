@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import Navbar from "../../components/navbar/Navbar";
 import SearchFilter from "../../components/searchFilter/SearchFilter";
 import Challenges from "../../components/challenges/Challenges";
@@ -12,7 +13,7 @@ import social from "../../images/social.png";
 import github from "../../images/github.png";
 import insta from "../../images/insta.png";
 
-const ChallengesPage = () => {
+const ChallengesPage = ({ menuOpen, setMenuOpen }) => {
   const [itemOffset, setItemOffset] = useState(0);
   const itemsPerPage = 6;
   const endOffset = itemOffset + itemsPerPage;
@@ -25,7 +26,7 @@ const ChallengesPage = () => {
   };
   return (
     <div className="challenges_page">
-      <Navbar />
+      <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <SearchFilter />
       <Challenges currentItems={currentItems} />
       <ReactPaginate

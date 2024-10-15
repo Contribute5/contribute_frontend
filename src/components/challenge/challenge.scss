@@ -73,3 +73,47 @@
     }
   }
 }
+
+@media (max-width: 480px) {
+  .challenge {
+    height: 360px;
+    .wrapper {
+      .top {
+      }
+      .bottom {
+        padding: 5px;
+        h3 {
+          font-size: 12px;
+        }
+        p {
+          font-size: 10px;
+        }
+        .user {
+          display: flex;
+          flex-direction: column-reverse;
+          gap: 10px;
+          margin: 5px;
+          display: none;
+
+          .link {
+            .cta {
+              span {
+                font-size: 10px;
+              }
+              .icon {
+                width: 10px;
+                height: 10px;
+              }
+            }
+          }
+          .user_images {
+            img {
+              width: 20px;
+              height: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

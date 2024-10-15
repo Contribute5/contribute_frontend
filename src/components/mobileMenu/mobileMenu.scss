@@ -1,0 +1,30 @@
+.mm {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .mm {
+    display: inline-block;
+    width: 100%;
+    height: calc(100vh - 70px);
+    top: 70px;
+    z-index: 9999;
+    position: absolute;
+    background-color: #277bcd;
+    transition: all 2s ease-in-out;
+    &.active {
+      display: none;
+    }
+    .container {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+      color: #ffff;
+      font-size: 25px;
+      cursor: pointer;
+    }
+  }
+}

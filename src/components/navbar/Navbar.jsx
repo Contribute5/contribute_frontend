@@ -1,9 +1,10 @@
+/* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
 import "./navbar.scss";
 import LOGO from "../../images/CONTRIBUTE.png";
 import TestimonialImg from "../../images/testimonial.png";
 
-const Navbar = () => {
+const Navbar = ({ menuOpen, setMenuOpen }) => {
   const user = false;
   return (
     <div className="navbar">
@@ -32,6 +33,14 @@ const Navbar = () => {
             <Link to="/about" className="link">
               <span>About</span>
             </Link>
+          </div>
+          <div
+            className={"hamburger " + (!menuOpen && "active")}
+            onClick={() => setMenuOpen(!menuOpen)}
+          >
+            <span className="line1"></span>
+            <span className="line2"></span>
+            <span className="line3"></span>
           </div>
         </div>
         <div className="auth">

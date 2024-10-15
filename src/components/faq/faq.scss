@@ -44,3 +44,29 @@
     }
   }
 }
+
+@media (max-width: 480px) {
+  .faq {
+    overflow: hidden;
+    width: 100%;
+    h2 {
+      font-size: 14px;
+      text-align: center;
+    }
+
+    .wrapper {
+      padding: 10px 10px;
+
+      .container {
+        .item {
+          .title {
+            font-size: 14px;
+          }
+          .content {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}

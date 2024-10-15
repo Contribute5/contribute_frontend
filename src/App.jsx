@@ -5,12 +5,15 @@ import Login from "./pages/login/Login";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ChallengesPage from "./pages/challengesPage/ChallengesPage";
 import SingleChallenge from "./pages/singleChallenge/SingleChallenge";
+import { useState } from "react";
 
 const App = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Home />,
+      element: <Home menuOpen={menuOpen} setMenuOpen={setMenuOpen} />,
     },
     {
       path: "/login",
@@ -22,7 +25,7 @@ const App = () => {
     },
     {
       path: "/challenges",
-      element: <ChallengesPage />,
+      element: <ChallengesPage menuOpen={menuOpen} setMenuOpen={setMenuOpen} />,
     },
     {
       path: "/single_challenge/:id",

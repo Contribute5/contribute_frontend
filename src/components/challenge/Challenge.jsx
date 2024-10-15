@@ -27,7 +27,7 @@ const Challenge = ({ currentItems }) => {
               <div className="user">
                 <Link className="link" to={`/single_challenge/${data.id}`}>
                   <div className="cta">
-                    <span>Start now</span> <ArrowOutwardIcon />
+                    <span>Start now</span> <ArrowOutwardIcon className="icon" />
                   </div>
                 </Link>
                 <div className="user_images">

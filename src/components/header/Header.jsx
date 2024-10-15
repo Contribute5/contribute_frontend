@@ -1,9 +1,6 @@
 import "./header.scss";
 import HeaderImg from "../../images/Hero Image.png";
 import Star from "../../images/Star 3.png";
-import comp1 from "../../images/Component 1.png";
-import comp2 from "../../images/Component 2.png";
-import comp3 from "../../images/Component 3.png";
 import { Link } from "react-router-dom";
 
 const Header = () => {
